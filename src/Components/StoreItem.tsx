@@ -39,7 +39,7 @@ export function StoreItem({id,name,price,imgUrl}:
                     </div>
                     <button onClick={()=> increaseCartQuantity(id)}>+</button>
                     </div>
-                    <button onClick={()=> removeFromCart(id)}>Remove</button>
+                    <button>Remove</button>
                   </div>}
                 </div>
             </Card.Body>
